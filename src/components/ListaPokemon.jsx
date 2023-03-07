@@ -23,7 +23,7 @@ export default function ListaPokemon() {
     });*/
     return (
         <div>
-            <h1>Lista de Pokemones</h1>
+            <h1 className='pokemon'>Lista de Pokemones</h1>
             <div className='row'>
                 {
                     /*pokemones.filter((pokemon) => {
